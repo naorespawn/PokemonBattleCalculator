@@ -1,4 +1,7 @@
 # PokemonBattleCalculator(PokeBaCa)
+
+![show](https://user-images.githubusercontent.com/47107757/76081872-68e5cd00-5fed-11ea-9f9f-fe5c3fb9837c.png)
+
 ポケットモンスター剣盾　対人戦サポートツール
 
 対戦におけるポケモン選出を補助する
