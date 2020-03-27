@@ -1,5 +1,5 @@
 current directory: /Users/naoki_egawa/GitHub/PokemonBattleCalculator/vender/bundle/ruby/2.5.0/gems/mysql-2.9.1/ext/mysql_api
-/Users/naoki_egawa/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20200317-91820-ask0ws.rb extconf.rb
+/Users/naoki_egawa/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20200327-18665-1pz4s6u.rb extconf.rb
 checking for mysql_ssl_set()... *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
 libraries and/or headers.  Check the mkmf.log file for more details.  You may
