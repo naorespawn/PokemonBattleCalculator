@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.2'
+gem 'rails'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use Puma as the app server
@@ -32,7 +32,7 @@ gem 'html2slim'
 
 group :development, :test do
   # Note that rspec-rails 4.0 is still a pre release
-  gem 'rspec-rails', '~> 4.0.0.rc1'
+  gem 'rspec-rails', '~> 4.0.0'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
