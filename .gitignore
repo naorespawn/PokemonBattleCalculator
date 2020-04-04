@@ -2,6 +2,18 @@
 # Created by https://www.gitignore.io/api/rails
 # Edit at https://www.gitignore.io/?templates=rails
 
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
 ### Rails ###
 *.rbc
 capybara-*.html
@@ -17,9 +29,12 @@ pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/tmp/*
 !/log/.keep
 !/tmp/.keep
+/.idea/*
+.browserslistrc
+.generators
+
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
@@ -39,7 +54,7 @@ config/master.key
 /th-opt-lib=
 
 # these should all be checked in to normalize the environment:
-# Gemfile.lock, .ruby-version, .ruby-gemset
+Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
