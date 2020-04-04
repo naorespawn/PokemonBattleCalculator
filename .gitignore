@@ -31,7 +31,7 @@ pickle-email-*.html
 /log/*
 !/log/.keep
 !/tmp/.keep
-/.idea/*
+.idea/
 .browserslistrc
 .generators
 
