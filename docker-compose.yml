@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 services:
   db:
     image: mysql:8.0
@@ -12,12 +12,15 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_PASSWORD: password
       TZ: "Asia/Tokyo"
-    command: mysqld --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_ja_0900_as_cs
-    # --default-authentication-plugin=mysql_native_password
+    command: mysqld
+      --default-authentication-plugin=mysql_native_password
+      --character-set-server=utf8mb4
+      --collation-server=utf8mb4_ja_0900_as_cs
 
   web:
     build: .
-    command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 3000 -b '0.0.0.0'"
+    command: bash -c "rm -f tmp/pids/server.pid"
+      bundle exec rails s -p 3000 -b '0.0.0.0'"
     container_name: rails_web
     volumes:
       - .:/usr/src
