@@ -58,7 +58,11 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
+<<<<<<< HEAD:pokemon/config/environments/production.rb
   # config.active_job.queue_name_prefix = "pokemon_production"
+=======
+  # config.active_job.queue_name_prefix = "src_production"
+>>>>>>> master:config/environments/production.rb
 
   config.action_mailer.perform_caching = false
 

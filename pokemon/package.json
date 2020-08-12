@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD:pokemon/package.json
   "name": "pokemon",
+=======
+  "name": "src",
+>>>>>>> master:package.json
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
