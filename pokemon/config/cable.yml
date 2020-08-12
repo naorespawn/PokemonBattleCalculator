@@ -7,8 +7,4 @@ test:
 production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-<<<<<<< HEAD:pokemon/config/cable.yml
   channel_prefix: pokemon_production
-=======
-  channel_prefix: src_production
->>>>>>> master:config/cable.yml
